@@ -20,7 +20,6 @@ public class Aula_01 {
 		System.out.printf("Measue with eight decimal places: %.8f\n", measure);
 		System.out.printf("Rouded (three decimal places): %.3f\n", measure);
 		System.out.printf("US decimal point: %.3f", measure);
-		// aqui eu editei
 	}
 	
 }
