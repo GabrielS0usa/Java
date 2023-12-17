@@ -1,0 +1,23 @@
+package AbreviacaoDeNome;
+
+public class Entidade {
+	
+	private String nomeCompleto;
+
+	public Nome(String nomeCompleto) {
+		this.nomeCompleto = nomeCompleto;
+	}
+
+	public String getNomeCompleto() {
+		return nomeCompleto;
+	}
+
+	public void setNomeCompleto(String nomeCompleto) {
+		this.nomeCompleto = nomeCompleto;
+	}
+	
+	public String nomeAbreviado() {
+		return "O nome " + nomeCompleto + " abreviado é: " + nomeCompleto.charAt(0) + "." + nomeCompleto.charAt(7) + " "
+				+ nomeCompleto.charAt(15) + "." + nomeCompleto.charAt(25);
+	}
+}

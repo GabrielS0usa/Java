@@ -1,0 +1,28 @@
+package Exercicios;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Ex_05 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		Locale.setDefault(Locale.US);
+		
+		int p1, p2, q1, q2;
+		double v1, v2;
+		
+		System.out.println("Digite o número da peça: ");
+		p1 = sc.nextInt();
+		System.out.println("Digite a quantidade de peças: ");
+		q1 = sc.nextInt();
+		System.out.printf("Digite o valor da%n peça %d: ", p1);
+		
+		
+		
+		
+		
+		sc.close();
+	}
+
+}

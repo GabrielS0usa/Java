@@ -1,0 +1,27 @@
+package Exercicios;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Ex_06 {
+	
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		double a, b, c, triangulo, circulo, trapezio, quadrado, retangulo;
+		
+		System.out.println("Digite  primeiro valor: ");
+		a = sc.nextDouble();
+		System.out.println("Digite o segundo valor : ");
+		b = sc.nextDouble();
+		System.out.println("Digite o terceiro valor: ");
+		c = sc.nextDouble();
+		
+		triangulo = (a * c) / 2;
+		
+		System.out.println(triangulo);
+		
+	}
+
+}

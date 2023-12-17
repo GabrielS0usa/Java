@@ -1,0 +1,11 @@
+package Exercicios;
+
+public class Ex_06 {
+	
+	public static void main(String[] args) {
+		
+		System.out.println("Olá");
+		
+	}
+
+}

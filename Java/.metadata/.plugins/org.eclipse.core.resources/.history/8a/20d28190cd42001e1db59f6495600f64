@@ -1,0 +1,17 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		String nome = "Gabriel";
+		int idade = 20;
+		double renda = 4000.0;
+		
+		System.out.printf("%s tem %d anos e recebe R$%.2f \n", nome, idade, renda);
+		
+		System.out.println("Olá mundo!");
+		
+		
+
+	}
+
+}

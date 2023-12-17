@@ -1,0 +1,27 @@
+package AbreviacaoDeNome;
+
+public class Entidade {
+	
+	private String nomeCompleto;
+
+    public void NomeAbreviado(String nomeCompleto) {
+        this.nomeCompleto = nomeCompleto;
+    }
+
+    public String abreviar() {
+        String[] partesNome = nomeCompleto.split("\\s+");
+        StringBuilder abreviatura = new StringBuilder();
+
+        for (String parte : partesNome) {
+            if (parte.length() > 2) {
+                abreviatura.append(parte.charAt(0)).append(". ");
+            }
+        }
+
+        // Remover o último espaço
+        abreviatura.setLength(abreviatura.length() - 1);
+
+        return abreviatura.toString();
+    }
+
+}

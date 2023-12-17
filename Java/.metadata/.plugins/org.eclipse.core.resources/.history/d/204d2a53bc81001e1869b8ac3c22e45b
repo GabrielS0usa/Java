@@ -1,0 +1,21 @@
+package AbreviacaoDeNome;
+import Entidade.abreviatura;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Digite um nome completo: ");
+        String nomeCompleto = scanner.nextLine();
+
+        NomeAbreviado nomeAbreviado = new NomeAbreviado(nomeCompleto);
+        String abreviatura = nomeAbreviado.abreviar();
+
+        System.out.println("Abreviatura: " + abreviatura);
+
+        scanner.close();
+	}
+
+}
