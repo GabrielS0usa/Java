@@ -1,4 +1,4 @@
-package Aula_01;
+package aula_01;
 import java.util.Locale;
 
 public class Main {

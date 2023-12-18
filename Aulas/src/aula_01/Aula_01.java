@@ -1,4 +1,4 @@
-package Aula_01;
+package aula_01;
 
 public class Aula_01 {
 

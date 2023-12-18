@@ -1,4 +1,4 @@
-package Aula_05;
+package aula_05;
 
 import java.util.Scanner;
 import java.util.Locale;

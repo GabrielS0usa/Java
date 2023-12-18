@@ -1,16 +1,15 @@
-package Aula_09;
+package aula_09;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Aula_09A {
+public class Aula_09B {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
-		char op = 's';
-
-		while (op == 's') {
+		char op;
+		do {
 			System.out.println("Digite a temperatura em celsius: ");
 			int c = sc.nextInt();
 			
@@ -19,7 +18,7 @@ public class Aula_09A {
 			
 			System.out.println("Deseja repitir (s/n): ");
 			op = sc.next().charAt(0);
-		}
+		} while (op == 's');
 
 		sc.close();
 	}
