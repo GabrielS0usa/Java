@@ -19,4 +19,5 @@ public class Ex_23 {
 
 		sc.close();
 	}
+	
 }
